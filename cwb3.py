@@ -35,8 +35,8 @@ def LOANRESOURCE():
 
         #get and validate resource number
         valid_resourceno = False
-        resourceno = input("Enter resource numer:")
         while not valid_resourceno:
+        resourceno = input("Enter resource number:")
             if len(resourceno) == 0:
                 print ("Error!Resource number cannot be empty.")
             elif len(resourceno) != 5:
@@ -51,8 +51,8 @@ def LOANRESOURCE():
 
         #get and validate student id
         valid_studentid=False
-        studentid = input("Enter studentid:")
         while not valid_studentid:
+        studentid = input("Enter studentid:")
             if len(studentid) == 0:
                 print ("Error!Resource number cannot be empty.")
             elif len(studentid) != 5:
@@ -68,8 +68,8 @@ def LOANRESOURCE():
 
         #get and validate student name
         valid_studentname=False
-        studentname = input("Enter student name:")
         while not valid_studentid:
+        studentname = input("Enter student name:")
             if len(studentname) == 0:
                 print ("Error!Student name cannot be empty.")
             elif len(studentname) > 30:
@@ -87,8 +87,8 @@ def LOANRESOURCE():
 
         #validate evaluation
         valid_evaluation=False
-        evaluation = input("Enter evaluation:")
         while not valid_evaluation:
+        evaluation = input("Enter evaluation:")
             if len(evaluation) == 0:
                 print ("Error!Evaluation cannot be empty.")
             elif len(evaluation) > 50:
